@@ -1,0 +1,19 @@
+.restaurantImage {
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.image {
+    height: 300px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
