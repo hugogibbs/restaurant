@@ -1,1 +1,1 @@
-console.log('Hello World, I\'m online!!!');
+alert('online');
