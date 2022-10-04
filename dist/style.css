@@ -71,6 +71,42 @@ button {
     
 }
 
-.menuitem {
-    color: gold;
+.menuContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    gap: 30px;
+    height: 500px;
+    padding-top: 30px;
+    padding-bottom: 160px;
+    
+}
+
+.menuItem {
+    background-color: orange;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.menuItem:hover {
+    cursor: pointer;
+    background-color: orangered;
+}
+
+.menuImage {
+    height: 120px;
+}
+
+.menuTitle {
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menuDescription {
+    font-size: 18px;
 }
