@@ -1,5 +1,8 @@
 import { takeRightWhile } from "lodash";
 
+import locationImage from '../dist/location.png';
+import mapaImage from '../dist/map.png';
+
 export function contactLoad() {
 
     const contentDiv = document.querySelector('#content');
@@ -12,7 +15,7 @@ export function contactLoad() {
 
     const contactImage = document.createElement('img');
     contactContainer.appendChild(contactImage);
-    contactImage.src = '../dist/location.png';
+    contactImage.src = locationImage;
     contactImage.className = 'contactImage';
     
 
@@ -30,7 +33,7 @@ export function contactLoad() {
 
     const mapImage = document.createElement('img');
     mapContainer.appendChild(mapImage);
-    mapImage.src = '../dist/map.png';
+    mapImage.src = mapaImage;
     mapImage.className = 'mapImage';
 
 

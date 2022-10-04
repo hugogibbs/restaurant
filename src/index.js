@@ -10,13 +10,9 @@ import './style.css';
 
 //import the images
 
-import '../dist/burger.png';
-import '../dist/cheeseburger.png';
 import '../dist/doubleCheeseburger.png';
 import '../dist/classic.png';
 import '../dist/deluxe.png';
-import '../dist/location.png';
-import '../dist/map.png';
 
 homePageLoad();
 

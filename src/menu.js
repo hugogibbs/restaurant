@@ -1,5 +1,11 @@
 import { takeRightWhile } from "lodash";
 
+
+import doubleCheese from '../dist/doubleCheeseburger.png';
+import classic from '../dist/classic.png';
+import dlx from '../dist/deluxe.png';
+import cheese from '../dist/cheeseburger.png';
+
 export function menuLoad() {
 
     const contentDiv = document.querySelector('#content');
@@ -16,7 +22,7 @@ export function menuLoad() {
     menuContainer.appendChild(menu1);
 
     const menu1Image = document.createElement('img');
-    menu1Image.src = "../dist/classic.png";
+    menu1Image.src = classic;
     menu1Image.className = 'menuImage';
     menu1.appendChild(menu1Image);
 
@@ -37,7 +43,7 @@ export function menuLoad() {
     menuContainer.appendChild(menu2);
 
     const menu2Image = document.createElement('img');
-    menu2Image.src = "../dist/cheeseburger.png";
+    menu2Image.src = cheese;
     menu2Image.className = 'menuImage';
     menu2.appendChild(menu2Image);
 
@@ -57,7 +63,7 @@ export function menuLoad() {
     menuContainer.appendChild(menu3);
 
     const menu3Image = document.createElement('img');
-    menu3Image.src = "../dist/doubleCheeseburger.png";
+    menu3Image.src = doubleCheese;
     menu3Image.className = 'menuImage';
     menu3.appendChild(menu3Image);
 
@@ -77,7 +83,7 @@ export function menuLoad() {
     menuContainer.appendChild(menu4);
 
     const menu4Image = document.createElement('img');
-    menu4Image.src = "../dist/deluxe.png";
+    menu4Image.src = dlx;
     menu4Image.className = 'menuImage';
     menu4.appendChild(menu4Image);
 
