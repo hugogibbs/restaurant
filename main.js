@@ -147,7 +147,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _website_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./website.js */ \"./src/website.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact.js */ \"./src/contact.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n\n\n(0,_website_js__WEBPACK_IMPORTED_MODULE_0__.homePageLoad)();\n\n\n// module to swith tabs between home, menu and contact\n\nlet switchModule = (function () {\n\n    const homeTab = document.getElementById('home');\n    homeTab.addEventListener(\"click\", _website_js__WEBPACK_IMPORTED_MODULE_0__.homePageLoad);\n\n    const menuTab = document.getElementById('menu');\n    menuTab.addEventListener(\"click\", _menu_js__WEBPACK_IMPORTED_MODULE_1__.menuLoad);\n\n    const contactTab = document.getElementById('contact');\n    contactTab.addEventListener(\"click\", _contact_js__WEBPACK_IMPORTED_MODULE_2__.contactLoad);\n\n})();\n\n\n\n//# sourceURL=webpack://restaurant/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _website_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./website.js */ \"./src/website.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact.js */ \"./src/contact.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _dist_burger_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../dist/burger.png */ \"./dist/burger.png\");\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module '..dist/cheeseburger.png'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n/* harmony import */ var _dist_doubleCheeseburger_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../dist/doubleCheeseburger.png */ \"./dist/doubleCheeseburger.png\");\n/* harmony import */ var _dist_classic_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../dist/classic.png */ \"./dist/classic.png\");\n/* harmony import */ var _dist_deluxe_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../dist/deluxe.png */ \"./dist/deluxe.png\");\n/* harmony import */ var _dist_location_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../dist/location.png */ \"./dist/location.png\");\n/* harmony import */ var _dist_map_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../dist/map.png */ \"./dist/map.png\");\n// import all the modules of the website\n\n\n\n\n\n//import the CSS file\n\n   \n\n//import the images\n\n\n\n\n\n\n\n\n\n(0,_website_js__WEBPACK_IMPORTED_MODULE_0__.homePageLoad)();\n\n\n// module to swith tabs between home, menu and contact\n\nlet switchModule = (function () {\n\n    const homeTab = document.getElementById('home');\n    homeTab.addEventListener(\"click\", _website_js__WEBPACK_IMPORTED_MODULE_0__.homePageLoad);\n\n    const menuTab = document.getElementById('menu');\n    menuTab.addEventListener(\"click\", _menu_js__WEBPACK_IMPORTED_MODULE_1__.menuLoad);\n\n    const contactTab = document.getElementById('contact');\n    contactTab.addEventListener(\"click\", _contact_js__WEBPACK_IMPORTED_MODULE_2__.contactLoad);\n\n})();\n\n\n\n//# sourceURL=webpack://restaurant/./src/index.js?");
 
 /***/ }),
 
@@ -170,6 +170,72 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"homePageLoad\": () => (/* binding */ homePageLoad)\n/* harmony export */ });\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"../../node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n\n\nfunction homePageLoad() {\n\n\n    const header1 = document.createElement('h1');\n    content.appendChild(header1);\n    header1.textContent = 'We Serve The Best Burger in Miami';\n\n    const imageContainer = document.createElement('div');\n    content.appendChild(imageContainer);\n    imageContainer.className = 'restaurantImage';\n\n    const burgerImage = document.createElement('img');\n    imageContainer.appendChild(burgerImage);\n    burgerImage.src = \"../dist/burger.png\";\n    burgerImage.className = 'image';\n\n    const paragraph1 = document.createElement('p');\n    content.appendChild(paragraph1);\n    paragraph1.textContent = ('This website is dedicated to the best burger in the world');\n\n    const paragraph2 = document.createElement('p');\n    content.appendChild(paragraph2);\n    paragraph2.textContent = ('Our burgers are prepared with the best ingredients');\n\n    const paragraph3 = document.createElement('p');\n    content.appendChild(paragraph3);\n    paragraph3.textContent = ('Find our restaurant in downtown Miami');\n\n    const pageFooter = document.createElement('div');\n    content.appendChild(pageFooter);\n    pageFooter.className = 'footer';\n    pageFooter.textContent = ('Copyright © Hugo Gibbs 2022. All rights reserved.');\n\n}\n\n//# sourceURL=webpack://restaurant/./src/website.js?");
+
+/***/ }),
+
+/***/ "./dist/burger.png":
+/*!*************************!*\
+  !*** ./dist/burger.png ***!
+  \*************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"938f835181d50bb1401a.png\";\n\n//# sourceURL=webpack://restaurant/./dist/burger.png?");
+
+/***/ }),
+
+/***/ "./dist/classic.png":
+/*!**************************!*\
+  !*** ./dist/classic.png ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"3f2acf8ec88a446bc95d.png\";\n\n//# sourceURL=webpack://restaurant/./dist/classic.png?");
+
+/***/ }),
+
+/***/ "./dist/deluxe.png":
+/*!*************************!*\
+  !*** ./dist/deluxe.png ***!
+  \*************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"6e4ad84549d0bb0f0ac9.png\";\n\n//# sourceURL=webpack://restaurant/./dist/deluxe.png?");
+
+/***/ }),
+
+/***/ "./dist/doubleCheeseburger.png":
+/*!*************************************!*\
+  !*** ./dist/doubleCheeseburger.png ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"1c0ad6b18ae97204972e.png\";\n\n//# sourceURL=webpack://restaurant/./dist/doubleCheeseburger.png?");
+
+/***/ }),
+
+/***/ "./dist/location.png":
+/*!***************************!*\
+  !*** ./dist/location.png ***!
+  \***************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"eb721cdad625041bb7b1.png\";\n\n//# sourceURL=webpack://restaurant/./dist/location.png?");
+
+/***/ }),
+
+/***/ "./dist/map.png":
+/*!**********************!*\
+  !*** ./dist/map.png ***!
+  \**********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"6ef59512601992879f35.png\";\n\n//# sourceURL=webpack://restaurant/./dist/map.png?");
 
 /***/ })
 
@@ -262,6 +328,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
