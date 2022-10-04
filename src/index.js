@@ -4,7 +4,7 @@ import {contactLoad} from './contact.js';
 
 
 
-menuLoad();
+homePageLoad();
 
 
 // module to swith tabs between home, menu and contact

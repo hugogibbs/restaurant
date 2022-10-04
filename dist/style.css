@@ -110,3 +110,29 @@ button {
 .menuDescription {
     font-size: 18px;
 }
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.contactImage {
+    height: 30px;
+}
+
+.mapContainer {
+    text-align: center;
+}
+
+.mapImage {
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.mapImage:hover {
+    cursor: pointer;
+}
