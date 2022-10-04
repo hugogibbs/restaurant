@@ -2,9 +2,6 @@ import { takeRightWhile } from "lodash";
 
 export function homePageLoad() {
 
-    const contentDiv = document.querySelector('#content');
-    contentDiv.replaceChildren();
-
 
     const header1 = document.createElement('h1');
     content.appendChild(header1);
