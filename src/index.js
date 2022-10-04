@@ -3,7 +3,6 @@ import {menuLoad} from './menu.js';
 import {contactLoad} from './contact.js';
 
 
-
 homePageLoad();
 
 
