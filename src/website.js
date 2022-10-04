@@ -1,7 +1,11 @@
 import { takeRightWhile } from "lodash";
 
+import coverImage from '../dist/burger.png';
+
 export function homePageLoad() {
 
+    const contentDiv = document.querySelector('#content');
+    contentDiv.replaceChildren();
 
     const header1 = document.createElement('h1');
     content.appendChild(header1);
@@ -13,7 +17,7 @@ export function homePageLoad() {
 
     const burgerImage = document.createElement('img');
     imageContainer.appendChild(burgerImage);
-    burgerImage.src = "../dist/burger.png";
+    burgerImage.src = coverImage;
     burgerImage.className = 'image';
 
     const paragraph1 = document.createElement('p');
